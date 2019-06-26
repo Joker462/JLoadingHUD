@@ -1,5 +1,4 @@
 # JLoadingHUD
-=======================
 
 
 ## Introduction
@@ -52,8 +51,47 @@ Hide loading
 JLoadingHUD.shared.hide()
 ```
 
+### Customization
+
+`JLoadingHUD` can be customized via the following methods:
+
+> BACKGROUND <
+
+Change background color
+
+```swift
+JLoadingHUD.shared.backgroundViewColor = UIColor.clear
+```
+> LOADING VIEW <
+
+```swift
+JLoadingHUD.shared.loadingViewBackgroundColor = UIColor.red           // Change loading view background color
+JLoadingHUD.shared.loadingViewSize = 128.0                            // Change loading view size
+JLoadingHUD.shared.loadingViewCornerRadius = 16.0                     // Change loading view corner radius
+```
+> LOADING PROGRESS VIEW <
+
+```swift
+JLoadingHUD.shared.loadingStrokeWidth = 4.0                           // Change loading progress size
+JLoadingHUD.shared.loadingStrokeColor = UIColor.white                 // Change loading progress color
+```
+Types
+case gradientCircle
+case circleSpin
+case circleSemi
+case circleScaleRipple
+case ballPulse
+case ballPulseQueue
+case ballPulseRipple
+case ballPulseOpacityRipple
+case ballPulseSync
+
+```swift
+JLoadingHUD.shared.progressLayerType = .circleSpin
+```
+
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2019 Hung Thai [Joker](hungthai270893@gmail.com)
+Copyright (c) 2019 Hung Thai (hungthai270893@gmail.com)
