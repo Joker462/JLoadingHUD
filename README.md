@@ -75,16 +75,9 @@ JLoadingHUD.shared.loadingViewCornerRadius = 16.0                     // Change 
 JLoadingHUD.shared.loadingStrokeWidth = 4.0                           // Change loading progress size
 JLoadingHUD.shared.loadingStrokeColor = UIColor.white                 // Change loading progress color
 ```
-Types
-case gradientCircle
-case circleSpin
-case circleSemi
-case circleScaleRipple
-case ballPulse
-case ballPulseQueue
-case ballPulseRipple
-case ballPulseOpacityRipple
-case ballPulseSync
+Types:
+
+`gradientCircle` `circleSpin` `circleSemi` `circleScaleRipple` `ballPulse` `ballPulseQueue` `ballPulseRipple` `ballPulseOpacityRipple` `ballPulseSync`
 
 ```swift
 JLoadingHUD.shared.progressLayerType = .circleSpin
