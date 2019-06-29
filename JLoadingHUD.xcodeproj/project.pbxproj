@@ -23,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B21B012422BE799A00C9B809 /* JLoadingHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLoadingHUD.framework; path = "/Users/hung/Documents/iOS Projects/Frameworks/JLoadingHUD/build/Debug-iphoneos/JLoadingHUD.framework"; sourceTree = "<absolute>"; };
 		B21B012722BE799A00C9B809 /* JLoadingHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLoadingHUD.h; sourceTree = "<group>"; };
 		B21B012822BE799A00C9B809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B21B013022BE7A9C00C9B809 /* BasicProgressLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicProgressLayer.swift; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		B21B013B22BE7A9C00C9B809 /* CircleScaleRippleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleScaleRippleLayer.swift; sourceTree = "<group>"; };
 		B21B013C22BE7A9C00C9B809 /* JLoadingHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLoadingHUD.swift; sourceTree = "<group>"; };
 		B21B013D22BE7A9D00C9B809 /* JLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLoadingView.swift; sourceTree = "<group>"; };
+		B248E95822C783920049AD12 /* JLoadingHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLoadingHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +56,7 @@
 			children = (
 				B21B012622BE799A00C9B809 /* JLoadingHUD */,
 				B272182422C77620000F119B /* Frameworks */,
+				B248E95822C783920049AD12 /* JLoadingHUD.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,7 +141,7 @@
 			);
 			name = JLoadingHUD;
 			productName = JLoadingHUD;
-			productReference = B21B012422BE799A00C9B809 /* JLoadingHUD.framework */;
+			productReference = B248E95822C783920049AD12 /* JLoadingHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -320,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
