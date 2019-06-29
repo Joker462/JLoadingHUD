@@ -8,16 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "cc135d0c4928df9f68daf15cb258ab7b4e4d937a",
+  "commitish" : "0362ca63d05d1633d3a70b38ac4325ec8b925cea",
   "iOS" : [
     {
       "name" : "JLoadingHUD",
-      "hash" : "8b81198cfa8425789aef4ab0571e56e5683db1fc8b6a967096c1eec8fa57ab05",
-      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-    },
-    {
-      "name" : "JLoadingHUD-iOS",
-      "hash" : "051f20f11775e0b654df365e6bd1348edb734750e0db1eaa6f62933044203055",
+      "hash" : "080788bb232b9fce511e85753f1a86c3fec7de7e5c9ae3643cd4a37b75d667a9",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
