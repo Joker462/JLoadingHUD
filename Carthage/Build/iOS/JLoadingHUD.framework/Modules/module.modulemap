@@ -1,0 +1,11 @@
+framework module JLoadingHUD {
+  umbrella header "JLoadingHUD.h"
+
+  export *
+  module * { export * }
+}
+
+module JLoadingHUD.Swift {
+    header "JLoadingHUD-Swift.h"
+    requires objc
+}
