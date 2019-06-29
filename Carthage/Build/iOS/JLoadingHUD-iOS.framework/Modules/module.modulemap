@@ -1,0 +1,4 @@
+framework module JLoadingHUD_iOS {
+  header "JLoadingHUD_iOS-Swift.h"
+  requires objc
+}

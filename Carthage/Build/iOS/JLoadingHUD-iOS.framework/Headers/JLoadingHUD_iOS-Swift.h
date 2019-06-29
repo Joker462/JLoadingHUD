@@ -188,13 +188,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD_iOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 @class NSCoder;
 
-SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS18BasicProgressLayer")
 @interface BasicProgressLayer : CALayer
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -203,7 +203,7 @@ SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
 @end
 
 
-SWIFT_CLASS("_TtC11JLoadingHUD12JLoadingView")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS12JLoadingView")
 @interface JLoadingView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
@@ -401,13 +401,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD_iOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 @class NSCoder;
 
-SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS18BasicProgressLayer")
 @interface BasicProgressLayer : CALayer
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -416,7 +416,7 @@ SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
 @end
 
 
-SWIFT_CLASS("_TtC11JLoadingHUD12JLoadingView")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS12JLoadingView")
 @interface JLoadingView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
@@ -618,13 +618,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD_iOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 @class NSCoder;
 
-SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS18BasicProgressLayer")
 @interface BasicProgressLayer : CALayer
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -633,7 +633,7 @@ SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
 @end
 
 
-SWIFT_CLASS("_TtC11JLoadingHUD12JLoadingView")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS12JLoadingView")
 @interface JLoadingView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
@@ -831,13 +831,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="JLoadingHUD_iOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 @class NSCoder;
 
-SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS18BasicProgressLayer")
 @interface BasicProgressLayer : CALayer
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -846,7 +846,7 @@ SWIFT_CLASS("_TtC11JLoadingHUD18BasicProgressLayer")
 @end
 
 
-SWIFT_CLASS("_TtC11JLoadingHUD12JLoadingView")
+SWIFT_CLASS("_TtC15JLoadingHUD_iOS12JLoadingView")
 @interface JLoadingView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
