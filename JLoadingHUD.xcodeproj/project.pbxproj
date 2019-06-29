@@ -20,6 +20,7 @@
 		B21B014722BE7A9D00C9B809 /* CircleScaleRippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B013B22BE7A9C00C9B809 /* CircleScaleRippleLayer.swift */; };
 		B21B014822BE7A9D00C9B809 /* JLoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B013C22BE7A9C00C9B809 /* JLoadingHUD.swift */; };
 		B21B014922BE7A9D00C9B809 /* JLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B013D22BE7A9D00C9B809 /* JLoadingView.swift */; };
+		B272182522C77620000F119B /* JLoadingHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21B012422BE799A00C9B809 /* JLoadingHUD.framework */; };
 		B2B98EAA22C685AD00B04517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B98EA922C685AD00B04517 /* AppDelegate.swift */; };
 		B2B98EAC22C685AD00B04517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B98EAB22C685AD00B04517 /* ViewController.swift */; };
 		B2B98EAF22C685AD00B04517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B98EAD22C685AD00B04517 /* Main.storyboard */; };
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B272182522C77620000F119B /* JLoadingHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,7 @@
 				B21B012622BE799A00C9B809 /* JLoadingHUD */,
 				B2B98EA822C685AD00B04517 /* Example */,
 				B21B012522BE799A00C9B809 /* Products */,
+				B272182422C77620000F119B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +144,13 @@
 				B21B013B22BE7A9C00C9B809 /* CircleScaleRippleLayer.swift */,
 			);
 			path = Circle;
+			sourceTree = "<group>";
+		};
+		B272182422C77620000F119B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B2B98EA822C685AD00B04517 /* Example */ = {
